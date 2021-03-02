@@ -17,21 +17,23 @@ La página web que vamos a utilizar es la de cita previa de salud de Canarias: <
 
 Cuando en la barra de búsqueda de un navegador, escribimos una dirección web, se realizan una serie de consultas o peticiones, a un servidor
 que nos da las respuestas, fundamentalmente, se realizan peticiones *http*, de la capa de aplicación, lo que nos quiere decir, que se realiza
-una consulta entre el cliente, neustro agente, que es el navegador, y el programa o los programas que se están ejecutando en el servidor.
+una consulta entre el cliente, nuestro agente, que es el navegador, y el programa o los programas que se están ejecutando en el servidor.
 
 EL objetivo principal, es obtener un recurso de la web, en este caso, es la página de inicio del servicio canario de la salud.
 
 * Qué tipo de petición estás realizando:
 
-La petición del recurso se está realizando con la petición Get, es decir, que el cliente *quiere* obtener un determinado recurso.
+La petición del recurso se está realizando con la petición *Get*, es decir, que el cliente *quiere* obtener un determinado recurso.
+El cliente envía una petición al servidor, para obtener un recurso, en este caso una página, y el servidor tiene que responderle, y en esas
+respuestas es donde se encuentran los mensajes de estado.
 
 * Qué código de status devuelve:
 
 Normalmente los códigos de estado indican si se ha obtenido algún recurso correctamente, o si ha ocurrido algún fallo, tanto en el servidor
 como en el cliente,además de otros tipos.
 
-En la captura posterior se muestran los códigos de estado, tenemos por un lado el código de error 200, que quiere decir, que se ha obtenido el recurso
-necesario, y por otro lado, el código de error 304, que indica que un elemento, como una imagen o icono, ya se encontraba en el navegador, y por lo tanto
+En la captura posterior se muestran los códigos de estado, tenemos por un lado el código de error *200*, que quiere decir, que se ha obtenido el recurso
+necesario, y por otro lado, el código de error *304*, que indica que un elemento, como una imagen o icono, ya se encontraba en el navegador, y por lo tanto
 se encuentra *cacheado*, se trata de una redirección.
 
 ![Imagen peticiones http](https://github.com/alu0101254678/uya-2021-Uso-navegador-web/blob/main/img/captura_peticiones_http.png?raw=true)
@@ -50,13 +52,15 @@ En la captura posterior se encuentran los datos mencionados anteriormente.
 
 * ¿La página tiene alguna cookie?¿Cuáles?
 
-Como vemos en la captura anterior aparece una cookie en la cabecera de petición, que corresponde al identificador de sesión.
+Como vemos en la captura anterior aparece una *cookie* en la cabecera de petición, que corresponde al identificador de sesión.
 
 * ¿Qué idioma acepta?
 
 Los idiomas que acepta son el español de España y el inglés estadounidense.
 
 * Alguna línea de código JavaScript
+
+(Se muestra un pequeño fragmento, el código ocupar más espacio)
 
 ```JavaScript
 !function(n,t){"object"==typeof module&&"object"==typeof module.exports?module.expo
@@ -65,7 +69,7 @@ Los idiomas que acepta son el español de España y el inglés estadounidense.
 
 * Alguna línea de código de CSS que se aplique
 
-Las siguientes líneas de código se aplican al cuerpo de la página web
+Las siguientes líneas de código se aplican al cuerpo de la página web:
 
 ```CSS
 body {
@@ -78,7 +82,7 @@ body {
 
 * Alguna línea de código HTML que se aplique
 
-En la siguiente captura se muestran algunas líneas de código escrito en HTML, correspondientes a su estructura básica
+En la siguiente captura se muestran algunas líneas de código escrito en HTML, correspondientes a su estructura básica:
 
 ![Imagen_HTML](https://github.com/alu0101254678/uya-2021-Uso-navegador-web/blob/main/img/captura_lineas_HTML.PNG?raw=true)
 
@@ -87,14 +91,14 @@ En la siguiente captura se muestran algunas líneas de código escrito en HTML, 
 ![Imagen Chrome](https://raw.githubusercontent.com/alu0101254678/uya-2021-Uso-navegador-web/main/img/chrome.jpg)
 
 Las peticiones que desencadena la consulta son las mismas que ocurren con el navegador Firefox, sin embargo en esta ocasión 
-la búsqueda se ha hecho por primera vez y no tenemos códigos de estado *304*
+la búsqueda se ha hecho por primera vez y no tenemos códigos de estado *304:*
 
 ![Imagen no 304 Chrome](https://raw.githubusercontent.com/alu0101254678/uya-2021-Uso-navegador-web/main/img/captura_chrome_inspeccion_200.PNG)
 
-El DNS del servidor y la dirección IP siguen siendo las mismas, ya que no varían aunque usemos otro navegador
+El DNS del servidor y la dirección IP siguen siendo las mismas, ya que no varían aunque usemos otro navegador.
 
 En Google Chrome también se almacenan *Cookies*, como el identificador de sesión, como ocurría en Firefox, aunque su valor
-es diferente
+es diferente.
 
 ![Imagen Cookie Chrome](https://raw.githubusercontent.com/alu0101254678/uya-2021-Uso-navegador-web/main/img/captura_chrome_inspeccion_cookie.PNG)
 
