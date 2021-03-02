@@ -82,6 +82,86 @@ En la siguiente captura se muestran algunas líneas de código escrito en HTML, 
 
 ![Imagen_HTML](https://github.com/alu0101254678/uya-2021-Uso-navegador-web/blob/main/img/captura_lineas_HTML.PNG?raw=true)
 
+### __Google Chrome__
+
+![Imagen Chrome](https://raw.githubusercontent.com/alu0101254678/uya-2021-Uso-navegador-web/main/img/chrome.jpg)
+
+Las peticiones que desencadena la consulta son las mismas que ocurren con el navegador Firefox, sin embargo en esta ocasión 
+la búsqueda se ha hecho por primera vez y no tenemos códigos de estado *304*
+
+![Imagen no 304 Chrome]()
+
+El DNS del servidor y la dirección IP siguen siendo las mismas, ya que no varían aunque usemos otro navegador
+
+En Google Chrome también se almacenan *Cookies*, como el identificador de sesión, como ocurría en Firefox, aunque su valor
+es diferente
+
+![Imagen Cookie Chrome]()
+
+* Alguna línea de código JavaScript que se aplique:
+
+```JavaScript
+!function(n, t) {
+    "object" == typeof module && "object" == typeof module.exports ? module.exports = n.document ? t(n, !0) : function(n) {
+        if (!n.document)
+            throw new Error("jQuery requires a window with a document");
+        return t(n)
+    }
+    : t(n)
+}
+```
+
+* Alguna línea de código CSS que se aplique:
+
+```CSS
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace
+}
+```
+
+* Alguna línea de código de HTML que se aplique:
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="/citasalud/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+```
+
+
+
 
 
 
