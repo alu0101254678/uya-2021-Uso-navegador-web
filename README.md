@@ -34,7 +34,7 @@ En la captura posterior se muestran los códigos de estado, tenemos por un lado 
 necesario, y por otro lado, el código de error 304, que indica que un elemento, como una imagen o icono, ya se encontraba en el navegador, y por lo tanto
 se encuentra *cacheado*, se trata de una redirección.
 
-![]()
+![Imagen peticiones http](https://github.com/alu0101254678/uya-2021-Uso-navegador-web/blob/main/img/captura_peticiones_http.png?raw=true)
 
 * Qué DNS tiene el servidor:
 
@@ -45,7 +45,7 @@ El servidor DNS corresponde a *www3.gobiernodecanarias.org*
 La dirección IP que tiene el servidor es la *93.188.136.126*, además la comunicación se hace en el puerto 443
 
 En la captura posterior se encuentran los datos mencionados anteriormente.
-![]()
+![Imagen inspeccion cabecera](https://github.com/alu0101254678/uya-2021-Uso-navegador-web/blob/main/img/captura_cabeceras_inspeccion.png?raw=true)
 
 * ¿La página tiene alguna cookie?¿Cuáles?
 
@@ -53,7 +53,7 @@ Como vemos en la captura anterior aparece una cookie en la cabecera de petición
 
 * ¿Qué idioma acepta?
 
-Los idiomas que acepta son el español de España y el inglés estado unidense.
+Los idiomas que acepta son el español de España y el inglés estadounidense.
 
 * Alguna línea de código JavaScript
 
@@ -63,7 +63,7 @@ Los idiomas que acepta son el español de España y el inglés estado unidense.
 
 * Alguna línea de código de CSS que se aplique
 
-Se aplica al cuerpo de la página web
+Las siguientes líneas de código se aplican al cuerpo de la página web
 
 ```CSS
 body {
@@ -76,7 +76,9 @@ body {
 
 * Alguna línea de código HTML que se aplique
 
-![]()
+En la siguiente captura se meustran algunas líneas de código escrito en HTML, correspondientes a su estructura básica
+
+![Imagen_HTML](https://github.com/alu0101254678/uya-2021-Uso-navegador-web/blob/main/img/captura_lineas_HTML.PNG?raw=true)
 
 
 
