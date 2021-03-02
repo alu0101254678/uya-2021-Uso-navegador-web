@@ -42,9 +42,10 @@ El servidor DNS corresponde a *www3.gobiernodecanarias.org*
 
 * Qué IP tiene el servidor:
 
-La dirección IP que tiene el servidor es la *93.188.136.126*, además la comunicación se hace en el puerto 443
+La dirección IP que tiene el servidor es la *93.188.136.126*, además la comunicación se hace en el puerto *443*
 
 En la captura posterior se encuentran los datos mencionados anteriormente.
+
 ![Imagen inspeccion cabecera](https://github.com/alu0101254678/uya-2021-Uso-navegador-web/blob/main/img/captura_cabeceras_inspeccion.png?raw=true)
 
 * ¿La página tiene alguna cookie?¿Cuáles?
@@ -77,7 +78,7 @@ body {
 
 * Alguna línea de código HTML que se aplique
 
-En la siguiente captura se meustran algunas líneas de código escrito en HTML, correspondientes a su estructura básica
+En la siguiente captura se muestran algunas líneas de código escrito en HTML, correspondientes a su estructura básica
 
 ![Imagen_HTML](https://github.com/alu0101254678/uya-2021-Uso-navegador-web/blob/main/img/captura_lineas_HTML.PNG?raw=true)
 
