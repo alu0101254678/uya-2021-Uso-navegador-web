@@ -89,14 +89,14 @@ En la siguiente captura se muestran algunas líneas de código escrito en HTML, 
 Las peticiones que desencadena la consulta son las mismas que ocurren con el navegador Firefox, sin embargo en esta ocasión 
 la búsqueda se ha hecho por primera vez y no tenemos códigos de estado *304*
 
-![Imagen no 304 Chrome]()
+![Imagen no 304 Chrome](https://raw.githubusercontent.com/alu0101254678/uya-2021-Uso-navegador-web/main/img/captura_chrome_inspeccion_200.PNG)
 
 El DNS del servidor y la dirección IP siguen siendo las mismas, ya que no varían aunque usemos otro navegador
 
 En Google Chrome también se almacenan *Cookies*, como el identificador de sesión, como ocurría en Firefox, aunque su valor
 es diferente
 
-![Imagen Cookie Chrome]()
+![Imagen Cookie Chrome](https://raw.githubusercontent.com/alu0101254678/uya-2021-Uso-navegador-web/main/img/captura_chrome_inspeccion_cookie.PNG)
 
 * Alguna línea de código JavaScript que se aplique:
 
