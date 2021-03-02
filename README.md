@@ -58,7 +58,8 @@ Los idiomas que acepta son el español de España y el inglés estadounidense.
 * Alguna línea de código JavaScript
 
 ```JavaScript
-
+!function(n,t){"object"==typeof module&&"object"==typeof module.exports?module.expo
+...
 ```
 
 * Alguna línea de código de CSS que se aplique
