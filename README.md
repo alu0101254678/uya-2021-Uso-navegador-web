@@ -11,7 +11,7 @@ La página web que vamos a utilizar es la de cita previa de salud de Canarias: <
 
 ### __Google Chrome__
 
-imagen a google chrome
+![Imagen chrome.jpg](https://raw.githubusercontent.com/alu0101254678/uya-2021-Uso-navegador-web/main/img/chrome.jpg)
 
 * Qué peticiones desencadena la consulta:
 
